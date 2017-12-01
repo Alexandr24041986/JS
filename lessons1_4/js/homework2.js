@@ -6,7 +6,7 @@ console.log("задача 1 на субботу");
 console.log(" ");
 let Plate = 10;
 let Bottle = 7;
-while(Plate > 0 && Bottle > 0){
+while(Plate > 0 ){
 	Plate--;
 	Bottle = Bottle - .5;
 	console.log("Моющего средства осталось",Bottle);
@@ -20,8 +20,9 @@ while(Plate > 0 && Bottle > 0){
 console.log("задача 2 на субботу");
 console.log(" ");
 for (let ft = 1; ft <= 10; ft++) {
-	let kg = ft * 0.454;
-	console.log(ft + " фунтов равно " + kg + " килограмм");
+    let kg = ft * 0.454;
+    console.log(ft + " фунтов = " + kg + " килограмм");
+
 }
 
 
