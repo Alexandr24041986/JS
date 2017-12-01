@@ -14,7 +14,7 @@ console.log(varCondition);
 
 
 //задача вторая//
-
+console.log("задача вторая");
 let varSquare = 1000;
 let varWbeds = 15;
 let varDbeds = 25;
