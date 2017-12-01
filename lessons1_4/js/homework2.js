@@ -1,47 +1,7 @@
-//задача первая//
-'use strict'
-let varA = 4;
-let varB = 53;
-let varC = 5;
-
-let varAmount = 2*(varA *varB + varB * varC + varA*varC);
-let varScuareside = varA * varB;
-let varCondition = varA < varB ? 'высота меньше ширины' : 'высота больше ширины'
-
-console.log(varAmount);
-console.log(varScuareside);
-console.log(varCondition);
-
-
-//задача вторая//
-
-let varSquare = 1000;
-let varWbeds = 15;
-let varDbeds = 25;
-
-let varSbeds = varWbeds * varDbeds;
-let varRemainder = varSquare % varSbeds;
-console.log(varRemainder);
-
-//задача третья//
-
-let varBoval = 1500;
-let varMoval = 600;
-let varRingoval = varBoval - varMoval;
-
-console.log(varRingoval);
-
-//задача четвертая//
-
-let varZ = 36;
-let varY = 5;
-
-varZ % varY <=4 ? console.log(varA + varY):console.log(varZ - varY);
-
-
 // Д З №2
 
 //задача первая
+'use strict'
 console.log("задача 1 на субботу");
 console.log(" ");
 let Plate = 10;
