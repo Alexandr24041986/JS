@@ -19,26 +19,19 @@
 		city2.mayor = 'Han';
 			
 		console.log(city1, city2);
-
 		city1.transition(6000);
-
 		console.log(city1, city2);
-
 
 		var IsMayor = function(city) {
 			return city.mayor;
 		}
-
 		console.log(IsMayor(city1));
-
 		var president = {
-			changeCountryMayor: function(cityName, newMayor) {
-				return cityName.mayor = newMayor;
+			changeCountryMayor: function(whatName, newMayor) {
+				return whatName.mayor = newMayor;
 			},
 		}
-
 		president.changeCountryMayor(city1, 'Matvienko))');
-
 		console.log(city1, city2);
 
 		//2 ряд: написать функцию validateData(data, flag)
