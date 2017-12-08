@@ -6,7 +6,7 @@ console.log("задача 1 на субботу");
 console.log(" ");
 let Plate = 10;
 let Bottle = 7;
-while(Plate > 0 ){
+while(Plate && Bottle){
 	Plate--;
 	Bottle = Bottle - .5;
 	console.log("Моющего средства осталось",Bottle);
@@ -71,3 +71,26 @@ var arrConcat = [1, 2, 3];
 var arrConcat2 = arrConcat.concat('7', '8');
 console.log(arrConcat);
 console.log(arrConcat2);
+
+
+//задача с  треугольником
+
+var xa = 6, ya = 8, xb = 7, yb = 3, xc = 9, yc = 6;
+
+console.log("Координаты точки A - X=" + xa, "Y=" + ya);  
+console.log("Координаты точки B - X=" + xb, "Y=" + yb);  
+console.log("Координаты точки C - X=" + xc, "Y=" + yc);  
+
+let ab = (xb - xa) * (xb - xa) + (yb - ya) * (yb - ya);
+let ac = (xc - xa) * (xc - xa) + (yc - ya) * (yc - ya);
+let bc = (xb - xc) * (xb - xc) + (yb - yc) * (yb - yc);
+
+console.log("квадрат ab =", ab);
+console.log("квадрат ac =", ac);
+console.log("квадрат bc =", bc);  
+
+if (ab === ac + bc || bc === ab + ac || ac === ab + bc) {
+    console.log("треугольник имеет прямой угол");
+} else {
+    console.log("треугольник не является прямоугольным");
+}
