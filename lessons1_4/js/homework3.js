@@ -30,6 +30,21 @@
 		}
 	}
 
+//рекурсия 
+ 	var n = 4287;
+    var z = 0;
+	    function recurs(n) {
+	        if (n%10) {
+	            z += n%10;
+	            n -=n%10;
+	            return recurs(n/10);
+	            } else {
+	                return n+z;
+	            }
+	        }
+	    
+	    console.log(recurs(n));
+    
 
 }())
 	
