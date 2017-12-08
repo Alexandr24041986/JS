@@ -34,7 +34,7 @@
 		president.changeCountryMayor(city1, 'Matvienko))');
 		console.log(city1, city2);
 
-		//2 ряд: написать функцию validateData(data, flag)
+		
 	
 
 
