@@ -34,9 +34,15 @@
 			};
 			
 		},
-		erase: function () {
-			document.getElementById("paint_brush_color").value = '#ffffff';
+		erase: function (event) {
 			console.log("началось стирание");
+			var context = canvas.getContext('2d');
+				context.beginPath();
+				context.strokeStyle = document.getElementById('paint_brush_color').value = '#ffffff';
+				context.arc(event.offsetX, event.offsetY, document.getElementById('paint_brush_size').value,
+					0,Math.PI*2,false);
+				context.stroke();
+
 		},
 	};
 	var canvas = document.getElementById("canvas");
