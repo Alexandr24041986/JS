@@ -3,7 +3,7 @@
 }
 
 .paint {
-	position: relative;
+	/*position: relative;*/
 	height: 600px;
 	width: 800px;
 	border: 2px solid #000;
@@ -14,9 +14,9 @@
 	margin-left: 5px;
 }
 
-#canvas {
+.paint canvas {
 	border-top: 2px solid #000;
-	width: 800px;
+	/*width: 800px;
 	margin: 0;
-	padding: 0;
+	padding: 0;*/
 }
