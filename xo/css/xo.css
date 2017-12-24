@@ -1,0 +1,45 @@
+
+body {
+    background-color: aqua;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 800px;
+    margin-top: 200px;
+}
+
+.player_form {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+fieldset {
+    border: 8px solid yellowgreen;
+    text-align: center;
+
+}
+
+
+/*#container2{
+    display: none;
+}*/
+#container2 {
+    margin: 50px auto;
+    width: 300px;
+}
+
+.cell {
+    text-transform: uppercase;
+    line-height: 50px;
+    text-align: center;
+    font-size: 40px;
+    border:2px solid black;
+    float: left;
+    height: 96px;
+    width: 96px;
+}
+
+.cell:hover{
+    border-color: blue;
+}

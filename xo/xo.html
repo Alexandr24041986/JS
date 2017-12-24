@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Крестики-нолики</title>
+    <link rel="stylesheet" href="css/xo.css">
+</head>
+    <body>
+        <div class="wrapper">
+            <form action="#" method="post" id="options">
+                <fieldset>
+                    <legend>
+                        <h1>Hастройки игры</h1>
+                    </legend>
+                        <div class="player_form">
+                            <label for="player1">введите игрока1</label>
+                                <input type="text" minlength="1" maxlength="10" placeholder="Игрок 1" required="yes" id="playername1">
+                        </div>
+
+                        <div class="player_form">
+                            <label for="player2">введите игрока2</label>
+                                <input type="text" minlength="1" maxlength="10" placeholder="Игрок 2" required="yes" id="playername2">
+                        </div>
+
+                        <div class="player_form">
+                            <label for="radio">Выберите количество игроков
+                                <input type="radio" name="playerscount" id="player11">1 игрок
+                            </label>
+                            <label for="radio">
+                                <input type="radio" name="playerscount" id="player22">2 игрока
+                            </label>
+                        </div>
+
+                        <div class="player_form">
+                            <label for="radio23">Выберите размер игрового поля
+                                <input type="radio" name="fieldsize" id="3x3">3x3
+                            </label>
+                            <label for="radio25">
+                                <input type="radio" name="fieldsize" id="5x5">5x5
+                             </label>
+                            <label for="radio212">
+                                <input type="radio" name="fieldsize" id="12x12">12x12
+                            </label>
+                        </div>
+
+                        <div class="player_form">
+                            <label>
+                                <input type="button" value="Начать игру" id="startgame">
+                            </label>
+                        </div>
+
+                        <div class="player_form">
+                            <input type="button" value="Сбросить" id="resetgame">
+                        </div>
+                </fieldset>
+            </form>
+            <div id="container2">
+                    <div class="cell" id = 0 ></div>
+                    <div class="cell" id = 1 ></div>
+                    <div class="cell" id = 2 ></div>
+                    <div class="cell" id = 3 ></div>
+                    <div class="cell" id = 4 ></div>
+                    <div class="cell" id = 5 ></div>
+                    <div class="cell" id = 6 ></div>
+                    <div class="cell" id = 7 ></div>
+                    <div class="cell" id = 8 ></div>
+            </div>
+        </div>
+        <script src="js/controller_xo.js"></script>
+        <script src="js/model_xo.js"></script>
+    </body>
+</html>
